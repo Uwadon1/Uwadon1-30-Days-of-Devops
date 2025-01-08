@@ -47,9 +47,11 @@ bash
 git clone https://github.com/Uwadon1/Uwadon1-30-Days-of-Devops/tree/main/Day-1/weather-dashboard-demo
 
 3. Install dependencies:
+4. 
 bash: pip install -r requirements.txt
 
-4. Configure environment variables (.env):
+5. Configure environment variables (.env):
+   
 OPENWEATHER_API_KEY=your_openweather_api_key_here
 
 AWS_BUCKET_NAME=your_s3_bucket_name_here
@@ -59,6 +61,7 @@ AWS_ACCESS_KEY_ID=your_aws_access_key_id
 AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
 
 Ensure you must have configured your AWS credentials:
+
 bash: aws configure
 
 5. Run the application:
