@@ -47,7 +47,7 @@ bash
 git clone https://github.com/Uwadon1/Uwadon1-30-Days-of-Devops/tree/main/Day-1/weather-dashboard-demo
 
 3. Install dependencies:
-4. 
+
 bash: pip install -r requirements.txt
 
 5. Configure environment variables (.env):
@@ -60,25 +60,35 @@ AWS_ACCESS_KEY_ID=your_aws_access_key_id
 
 AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
 
+
 Ensure you must have configured your AWS credentials:
 
 bash: aws configure
 
 5. Run the application:
+   
 python src/weather_dashboard.py
 
 What I Learned
 
 AWS S3 bucket creation and management
+
 Environment variable management for secure API keys
+
 Python best practices for API integration
+
 Git workflow for project development
+
 Error handling in distributed systems
+
 Cloud resource management
 
 Future Enhancements
 
 Add weather forecasting
+
 Add more cities
+
 Create automated testing
+
 Set up CI/CD pipeline
