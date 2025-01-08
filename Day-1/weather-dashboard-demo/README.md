@@ -43,7 +43,7 @@ weather-dashboard/
 
 ## Setup Instructions
 1. Clone the repository:
---bash
+bash
 git clone https://github.com/Uwadon1/Uwadon1-30-Days-of-Devops/tree/main/Day-1/weather-dashboard-demo
 
 3. Install dependencies:
@@ -73,7 +73,6 @@ Cloud resource management
 Future Enhancements
 
 Add weather forecasting
-Implement data visualization
 Add more cities
 Create automated testing
 Set up CI/CD pipeline
