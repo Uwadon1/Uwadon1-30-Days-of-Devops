@@ -80,7 +80,7 @@ cd to the newly created folder "Day 2"
 ### **Create the SNS Publish Policy**
 1. Open the IAM service in the AWS Management Console.
 2. Navigate to Policies → Create Policy.
-3. Click JSON and paste the JSON policy from gd_sns_policy.json file
+3. Click JSON and paste the JSON policy from game-day-policy.json file
 4. Replace REGION and ACCOUNT_ID with your AWS region and account ID.
 5. Click Next: Tags (you can skip adding tags).
 6. Click Next: Review.
@@ -121,7 +121,7 @@ cd to the newly created folder "Day 2"
 2. Go to Rules → Create Rule.
 3. Select Event Source: Schedule.
 4. Set the cron schedule for when you want updates (e.g., hourly).
-5. Under Targets, select the Lambda function (game-day-sns) and save the rule.
+5. Under Targets, select the Lambda function (game-day-rule) and save the rule.
 
 
 ### **Test the System**
