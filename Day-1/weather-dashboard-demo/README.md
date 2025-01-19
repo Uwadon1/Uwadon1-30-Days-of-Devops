@@ -45,21 +45,23 @@ weather-dashboard/
 ## Setup Instructions
 1. Clone the repository:
 --bash
-git clone https://github.com/ShaeInTheCloud/30days-weather-dashboard.git
+git clone https://github.com/Uwadon1/Uwadon1-30-Days-of-Devops/tree/main/Day-1/weather-dashboard-demo
 
 3. Install dependencies:
 bash pip install -r requirements.txt
 
-4. Configure environment variables (.env):
-OPENWEATHER_API_KEY=your_api_key
-AWS_BUCKET_NAME=your_bucket_name
-
-4.Configure AWS credentials:
-bash aws configure
-
-5.Install dependencies:
+Install the dependencies for visualization
 bash pip install matplotlib
 
+
+4. Configure environment variables (.env):
+OPENWEATHER_API_KEY=your_openweather_api_key_here
+AWS_BUCKET_NAME=your_s3_bucket_name_here
+AWS_ACCESS_KEY_ID=your_aws_access_key_id
+AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key
+
+Ensure you must have configured your AWS credentials:
+bash: aws configure
 
 5. Run the application:
 python src/weather_dashboard.py
@@ -80,3 +82,4 @@ Implement data visualization
 Add more cities
 Create automated testing
 Set up CI/CD pipeline
+```
